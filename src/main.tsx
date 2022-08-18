@@ -5,6 +5,7 @@ import All, { Comment } from "./day1/one";
 import Clock from './day1/two'
 import UserGreeting from './day1/three'
 import Four from './day1/four'
+import ClockPlus from './day1/five'
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Comment name="zyddddd" txt="rarars"></Comment>
     <Clock></Clock> */}
     {/* <UserGreeting name='li'></UserGreeting> */}
-    <Four></Four>
+    {/* <Four></Four> */}
+    <ClockPlus></ClockPlus>
   </React.StrictMode>
 );
