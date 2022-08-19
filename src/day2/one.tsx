@@ -6,6 +6,7 @@ function rad(d: any) {
   return (d * Math.PI) / 180.0;
 }
 
+// 注意传值的时候 分清经度和纬度
 // 根据经纬度计算距离，参数分别为第一点的纬度，经度；第二点的纬度，经度
 function getDistance(lat1: any, lng1: any, lat2: any, lng2: any) {
   var radLat1 = rad(lat1);
@@ -51,13 +52,17 @@ export default function Main() {
   return (
     <div>
       <p>当前count值：{count}</p>
-      <p>
+      {/* <p>
         经纬度对应的值是：
         {getDistance(114.552251, 38.059746, 114.56025, 38.060055)}
       </p>
       <p>
         经纬度对应的值是：
         {getDistance(114.552246, 38.059732, 114.555053, 38.060108)}
+      </p> */}
+      <p>
+        经纬度对应的值是：
+        {getDistance(38.059724, 114.552246, 38.059845, 114.555031)}
       </p>
       <button onClick={handleCount}>+1操作</button>
     </div>
