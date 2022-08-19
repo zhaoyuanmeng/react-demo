@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import All, { Comment } from "./day1/one";
-import Clock from './day1/two'
-import UserGreeting from './day1/three'
-import Four from './day1/four'
-import ClockPlus from './day1/five'
+import Clock from "./day1/two";
+import UserGreeting from "./day1/three";
+import Four from "./day1/four";
+import ClockPlus from "./day1/five";
 
-import HookOne from './day2/one'
+import HookOne from "./day2/one";
 
 import "./index.css";
 
