@@ -8,6 +8,7 @@ import Four from "./day1/four";
 import ClockPlus from "./day1/five";
 
 import HookOne from "./day2/one";
+import HookTwo from './day2/two'
 
 import "./index.css";
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     {/* <UserGreeting name='li'></UserGreeting> */}
     {/* <Four></Four> */}
     {/* <ClockPlus></ClockPlus> */}
-    <HookOne></HookOne>
+    {/* <HookOne></HookOne> */}
+    <HookTwo></HookTwo>
   </React.StrictMode>
 );

@@ -15,3 +15,10 @@
 ## day2
 
 - hooks
+- useState
+- useEffect
+- useContext
+    - 某种意义上讲，effect 更像是渲染结果的一部分 —— 每个 effect “属于”一次特定的渲染
+- hook规则
+- 自定义hooks
+
