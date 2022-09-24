@@ -4,12 +4,12 @@ import DataAStore from "./A";
 import DataBStore from "./B";
 
 class RootStore {
-  public dataAStore: Object;
-  public dataBStore: Object;
+  dataAStore;
+  dataBStore;
 
   constructor() {
     this.dataAStore = new DataAStore();
-    this.dataBStore = new DataAStore();
+    this.dataBStore = new DataBStore();
   }
 }
 const StroeContext = React.createContext(new RootStore());
