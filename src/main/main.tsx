@@ -13,6 +13,9 @@ function Main() {
           <li>
             <Link to="/day4/pageOne">day4/pageTwo</Link>
           </li>
+          <li>
+            <Link to="/communicate">组件通信</Link>
+          </li>
         </ul>
       </nav>
       {/* 指定路由组件呈现的位置  其实就是router-view*/}

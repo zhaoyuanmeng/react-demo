@@ -4,6 +4,9 @@ import Day3PageOne from "@/day3/pageOne";
 import Day3PageTwo from "@/day3/pageTwo";
 
 import Day4PageOne from "@/day4/pageOne";
+
+import Communicate from "@/communicate/props";
+
 const GetRoutes = () => {
   const routes = useRoutes([
     {
@@ -21,6 +24,10 @@ const GetRoutes = () => {
         {
           path: "day4/pageOne",
           element: <Day4PageOne></Day4PageOne>,
+        },
+        {
+          path: "communicate",
+          element: <Communicate></Communicate>,
         },
       ],
     },
