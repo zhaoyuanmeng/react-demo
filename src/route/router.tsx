@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
-import Main from "../day3/main";
+import Main from "../main/main";
 import Day3PageOne from "@/day3/pageOne";
 import Day3PageTwo from "@/day3/pageTwo";
 
