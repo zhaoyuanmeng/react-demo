@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 import Main from "../day3/main";
-import PageOne from "../day3/pageOne";
-import PageTwo from "../day3/pageTwo";
+import Day3PageOne from "@/day3/pageOne";
+import Day3PageTwo from "@/day3/pageTwo";
+
+import Day4PageOne from "@/day4/pageOne";
 const GetRoutes = () => {
   const routes = useRoutes([
     {
@@ -9,12 +11,16 @@ const GetRoutes = () => {
       element: <Main></Main>,
       children: [
         {
-          path: "pageOne",
-          element: <PageOne></PageOne>,
+          path: "day3/pageOne",
+          element: <Day3PageOne></Day3PageOne>,
         },
         {
-          path: "pageTwo",
-          element: <PageTwo></PageTwo>,
+          path: "day3/pageTwo",
+          element: <Day3PageTwo></Day3PageTwo>,
+        },
+        {
+          path: "day4/pageOne",
+          element: <Day4PageOne></Day4PageOne>,
         },
       ],
     },
