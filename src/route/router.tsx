@@ -9,6 +9,8 @@ import Communicate from "@/communicate/props";
 import Effect from "@/hooks/useEffect";
 import Slot from "@/slot/slot";
 
+import Counter from "@/hooks/useReducer";
+
 const GetRoutes = () => {
   const routes = useRoutes([
     {
@@ -38,6 +40,10 @@ const GetRoutes = () => {
         {
           path: "slot",
           element: <Slot></Slot>,
+        },
+        {
+          path: "useReducer",
+          element: <Counter></Counter>,
         },
       ],
     },

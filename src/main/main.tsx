@@ -22,6 +22,9 @@ function Main() {
           <li>
             <Link to="/slot">slot</Link>
           </li>
+          <li>
+            <Link to="/useReducer">useReducer</Link>
+          </li>
         </ul>
       </nav>
       {/* 指定路由组件呈现的位置  其实就是router-view*/}
