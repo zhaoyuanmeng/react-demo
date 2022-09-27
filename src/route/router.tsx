@@ -7,6 +7,7 @@ import Day4PageOne from "@/day4/pageOne";
 
 import Communicate from "@/communicate/props";
 import Effect from "@/hooks/useEffect";
+import Slot from "@/slot/slot";
 
 const GetRoutes = () => {
   const routes = useRoutes([
@@ -33,6 +34,10 @@ const GetRoutes = () => {
         {
           path: "effect",
           element: <Effect></Effect>,
+        },
+        {
+          path: "slot",
+          element: <Slot></Slot>,
         },
       ],
     },
