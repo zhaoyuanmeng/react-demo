@@ -1,3 +1,4 @@
+import "./slot.css";
 /*
  *@Author: 赵元达
  *@Date: 2022-09-27 10:53:35
@@ -39,7 +40,7 @@ function SlotTwo(props: any) {
  *@Description: Top 组件
  */
 function Top() {
-  return <div>top组件</div>;
+  return <div className="top">top组件</div>;
 }
 /*
  *@Author: 赵元达
@@ -48,7 +49,7 @@ function Top() {
  *@Description: Content组件
  */
 function Content() {
-  return <div>Content组件</div>;
+  return <div className="content">Content组件</div>;
 }
 
 /*
@@ -58,7 +59,7 @@ function Content() {
  *@Description: Bootom 组件
  */
 function Bootom() {
-  return <div>Bootom组件</div>;
+  return <div className="bottom">Bootom组件</div>;
 }
 
 function Parent() {
