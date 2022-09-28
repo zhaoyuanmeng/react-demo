@@ -11,6 +11,8 @@ import Slot from "@/slot/slot";
 
 import Counter from "@/hooks/useReducer";
 
+import CallBack from "@/hooks/useCallback";
+
 const GetRoutes = () => {
   const routes = useRoutes([
     {
@@ -44,6 +46,10 @@ const GetRoutes = () => {
         {
           path: "useReducer",
           element: <Counter></Counter>,
+        },
+        {
+          path: "useCallback",
+          element: <CallBack></CallBack>,
         },
       ],
     },

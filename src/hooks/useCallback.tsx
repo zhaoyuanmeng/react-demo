@@ -1,1 +1,5 @@
-export const test = "a";
+function Test() {
+  return <div>useCallback</div>;
+}
+
+export default Test;

@@ -25,6 +25,9 @@ function Main() {
           <li>
             <Link to="/useReducer">useReducer</Link>
           </li>
+          <li>
+            <Link to="/useCallback">useCallback</Link>
+          </li>
         </ul>
       </nav>
       {/* 指定路由组件呈现的位置  其实就是router-view*/}
